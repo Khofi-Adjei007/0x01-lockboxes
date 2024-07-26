@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+# Run doctests for the Python module
+python3 -m doctest -v (basename (status -f))
+
+# Exit the script
+exit
+
